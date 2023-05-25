@@ -1,6 +1,5 @@
 import React				from 'react';
 import NavigationBar 		from '../molecules/NavigationBar';
-import Popup 				from '../molecules/Popup';
 
 const Home = () => {
 	const handleSearch = (searchValue) => {
@@ -11,8 +10,6 @@ const Home = () => {
 	return (
 		<div>
 			<NavigationBar onSearch={handleSearch}/>
-			<h2>Home</h2>
-			<Popup />
 		</div>
 	);
 }

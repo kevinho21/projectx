@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Input = ({ type, id, value, onChange, placeHolder = '' }) => {
+const Input = ({ type, id, value, onChange, placeHolder = "" }) => {
     return (
         <input
             className="input-field"

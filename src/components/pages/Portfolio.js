@@ -1,7 +1,7 @@
 import React            from "react";
 import NavigationBar    from "../molecules/NavigationBar";
 
-const About = () => {
+const Portfolio = () => {
     const handleSearch = (searchValue) => {
 		// Perform filtering based on the searchValue
 		// Update the filtered content on the page
@@ -14,4 +14,4 @@ const About = () => {
 	);
 }
 
-export default About;
+export default Portfolio;

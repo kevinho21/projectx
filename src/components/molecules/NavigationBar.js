@@ -30,11 +30,12 @@ const NavigationBar = ({ onSearch }) => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/About">About</Link></li>
                 <li><Link to="/Contact">Contact</Link></li>
+                <li><Link to="/Portfolio">Portfolio</Link></li>
             </ul>
             <div className={`search-bar ${isSearchExpanded ? 'expanded' : ''}`}>
                 {!isSearchExpanded && (
                     <i
-                        className="search-icon fas fa-search"
+                        className="search-icon fas fa-search fa-lg"
                         onClick={handleSearchIconClick}
                         tabIndex={0}
                     />
